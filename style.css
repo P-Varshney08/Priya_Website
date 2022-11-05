@@ -1,0 +1,236 @@
+.header{
+    display: flex;
+    background-color: rgb(48, 7, 7);
+    padding: 20px;
+    margin:20px;
+    gap:25%;
+    height: fit-content;
+}
+fieldset{
+  padding: 20px;
+  margin:40px;
+  border: 0;
+}
+.blogg{
+  border: 2px solid pink;
+  border-radius: 9px;
+  padding: 9px;
+  background-color: rgb(251, 228, 197);
+}
+#trial{
+  /* position:right; */
+  border:2px solid rgb(115, 231, 115);
+  border-radius: 7px;
+  padding: 4px;
+  position: right;
+}
+#booking:hover{
+  color:black;
+  background-color:ECBE60;
+  transition: 0.5s;
+}
+.header a{
+  text-align: center;
+  padding: 10px 12px;
+  color: aliceblue;
+  text-decoration: none;
+}
+.header a:hover{
+  text-decoration: underline;
+  color: darkkhaki;
+  font-size: 20px;
+}
+
+fieldset div{
+  padding: 9px;
+}
+
+#button{
+
+}
+
+
+
+
+
+
+
+.card{
+    
+  margin:50px;
+  padding: 7px;
+  box-shadow:2px 2px 2px #4d4d4d;
+  border-radius: 6px;
+}
+
+.card:hover{
+  box-shadow: 4px 8px 16px #999999;
+  cursor:pointer;
+  transition: box-shadow 0.3s;
+  background-color: rgb(204, 204, 204, 0.3);
+}
+
+.arrange_cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:2.5rem;
+  margin-left:80px;
+  
+}
+#hero{
+  margin: 0px;
+}
+
+#intro{
+height:260px;
+background-image:url("travelimage.jpg");
+background-position:center;
+background-size:cover;
+
+}
+
+#intro-content{
+width:100%;
+background-color:rgba(52, 54, 62, 0.6);
+box-shadow:2px 4px 8px;
+border-radius:8px;
+text-align:center;
+padding:50px 0;
+margin:0 auto;
+position:relative;
+top:0px;
+font-family:"signika negative";
+color:white;
+}
+
+#booking02{
+  width:100px;
+  height: 20px;
+  background-color: plum;
+  margin:4px; 
+  padding: 3px;
+  margin-top: 1.2rem;
+  margin-right: 1rem;
+  border-radius: 10px 10px 10px;
+  margin-left: 43rem;
+}
+
+#booking02 a{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+#booking02 a:hover{
+  color: black;
+  margin: 6px;
+  transition: 0.5s;
+}
+
+#ending{
+  list-style:none;
+  display: flex;
+  margin-left: 9.5rem;
+}
+.ends{
+  height: 25px;
+  width: 25px;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+h3{
+  margin:2px;
+  margin-top: 1.5rem;
+}
+span{
+  display: flex;
+  color: white;
+}
+#img-icon{
+  margin:12px;
+  margin-left: 20px;
+  
+}
+
+#list{
+  list-style: none;
+  margin: 12px;
+   display: flex;
+   justify-content:center;
+}
+
+#booking{
+  border:2px solid white;
+  margin:4px; 
+  padding: 3px;
+  margin-top: 1.2rem;
+  margin-right: 1rem;
+}
+
+#booking a{
+  text-decoration: none;
+  color: white;
+  margin: 5px;;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+  background-color:black;
+  width:100%;
+  height:65px;   
+}
+li{
+margin:10px;
+padding:3px
+}
+.links{
+  color:white;
+  text-decoration: none;
+  
+}
+
+.links:hover{
+  color:ECBE60;
+  transition: 0.5s;
+  text-decoration: dotted;
+}
+
+#booking:hover{
+  color:black;
+  background-color:ECBE60;
+  transition: 0.5s;
+}
+
+div img{
+  border-radius: 15px;
+  padding: 2px;
+}
+
+div img:hover{
+  opacity: 0.7;
+}
+
+ul a:hover{
+  color: blue;
+  text-decoration: underline ;
+}
+
+.jour{
+  background-image: url('images/maninmount.jpg');
+  padding-left: 150px;
+  padding-right: 200px;
+  background-size: 900px 1500px;
+  background-repeat: no-repeat;
+}
+
+.footer{
+  background-color: white;
+  display:flex;
+  padding:50px;
+  gap: 30%;
+}
